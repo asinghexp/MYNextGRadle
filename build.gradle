@@ -9,7 +9,9 @@ repositories {
 }
 
 test {
-    useTestNG()
+    useTestNG() {
+    	suites './testng.xml'
+    }
 }
 
 dependencies {
